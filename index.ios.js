@@ -28,7 +28,7 @@ class AwesomeReach extends Component {
           Preset SMS messages to send to your support network.
         </Text>
         <Text style={styles.instructions}>
-          When it's time to reach out, simply open and{'\n'}
+          When its time to reach out, simply open and{'\n'}
           R E A C H
         </Text>
       </View>
@@ -54,5 +54,6 @@ const styles = StyleSheet.create({
     marginBottom: 5,
   },
 });
+
 
 AppRegistry.registerComponent('AwesomeReach', () => AwesomeReach);

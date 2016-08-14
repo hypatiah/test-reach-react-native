@@ -21,7 +21,7 @@ class AwesomeReach extends Component {
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>
-          R E A C H out with a simple click.
+          R E A C H out with a simple tap.
         </Text>
         <Image source={require('./reach_button.png')} style={{width: 300, height: 300}}/>
         <Text style={styles.instructions}>
